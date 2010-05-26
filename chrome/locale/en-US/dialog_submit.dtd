@@ -1,0 +1,23 @@
+<!-- Dialog -->
+<!ENTITY title "Post to Scuttle ...">
+
+<!ENTITY tabbox.pageinfo.tab.label "Page info">
+<!ENTITY url.label "Url">
+<!ENTITY description.label "Description">
+<!ENTITY extended.label "Extended (optional)">
+<!ENTITY tags.label "Tags (comma separated)">
+<!ENTITY service_url.label "Bookmark Service Url">
+
+<!ENTITY tabbox.login.tab.label "Login">
+<!ENTITY username.label "Username">
+<!ENTITY password.label "Password">
+<!ENTITY use_password_manager.label "Use Password Manager to remember login details">
+
+<!ENTITY button.accept.label "Post">
+<!ENTITY button.cancel.label "Cancel">
+
+<!ENTITY privacy.label "Privacy(useful only if your Scuttle site supports it)">
+<!ENTITY privacy.preference.label "Privacy Preference:">
+<!ENTITY privacy.public.label "public">
+<!ENTITY privacy.private.label "private">
+<!ENTITY privacy.watch_list.label "Shared with watch list">

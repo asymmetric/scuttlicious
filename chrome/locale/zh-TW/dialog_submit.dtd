@@ -1,0 +1,23 @@
+<!-- Dialog -->
+<!ENTITY title "貼到Scuttle ...">
+
+<!ENTITY tabbox.pageinfo.tab.label "書簽資料">
+<!ENTITY url.label "網址">
+<!ENTITY description.label "簡述">
+<!ENTITY extended.label "详情（可不填）">
+<!ENTITY tags.label "標簽(請用逗號隔開)">
+<!ENTITY service_url.label "Scuttle書簽服務器地址">
+
+<!ENTITY tabbox.login.tab.label "登錄">
+<!ENTITY username.label "用戶名">
+<!ENTITY password.label "密碼">
+<!ENTITY use_password_manager.label "用密碼管理程序記住密碼">
+
+<!ENTITY button.accept.label "貼">
+<!ENTITY button.cancel.label "取消">
+
+<!ENTITY privacy.label "分享">
+<!ENTITY privacy.preference.label "分享首選">
+<!ENTITY privacy.public.label "公開">
+<!ENTITY privacy.private.label "私人">
+<!ENTITY privacy.watch_list.label "和觀測者共享">

@@ -1,0 +1,7 @@
+<!-- context menu overlay -->
+<!ENTITY menuitem.label "張貼網頁到由Scuttle提供的服務網站">
+<!ENTITY menuitem.link.label "張貼連接到由Scuttle提供的服務網站">
+
+<!-- toolbar button overlay -->
+<!ENTITY toolbarbutton.tooltiptext "張貼到由Scuttle提供的服務網站">
+<!ENTITY toolbarbutton.label "scuttlelicious">

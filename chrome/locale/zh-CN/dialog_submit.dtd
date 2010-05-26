@@ -1,0 +1,23 @@
+<!-- Dialog -->
+<!ENTITY title "贴到Scuttle ...">
+
+<!ENTITY tabbox.pageinfo.tab.label "书签资料">
+<!ENTITY url.label "网址">
+<!ENTITY description.label "简述">
+<!ENTITY extended.label "详情（可不填）">
+<!ENTITY tags.label "标签(请用逗号隔开)">
+<!ENTITY service_url.label "Scuttle书签服务器地址">
+
+<!ENTITY tabbox.login.tab.label "登录">
+<!ENTITY username.label "用户名">
+<!ENTITY password.label "密码">
+<!ENTITY use_password_manager.label "用密码管理程序记住密码">
+
+<!ENTITY button.accept.label "贴">
+<!ENTITY button.cancel.label "取消">
+
+<!ENTITY privacy.label "分享">
+<!ENTITY privacy.preference.label "分享首选">
+<!ENTITY privacy.public.label "公开">
+<!ENTITY privacy.private.label "私人">
+<!ENTITY privacy.watch_list.label "和观测者共享">

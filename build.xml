@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+
+<project name="scuttlelicious" default="createxpi">
+
+	<target name="createxpi" depends="init, createjar">
+		<zip destfile="scuttlelicious_0.2.4.xpi">
+ 			<zipfileset dir="." prefix="chrome/" includes="scuttlelicious.jar" />
+ 			<zipfileset dir="." includes="install.rdf" />
+ 			<zipfileset dir="." includes="install.js" />
+			<zipfileset dir="." includes="build.xml" />
+			<zipfileset dir="." includes="ReleaseNotes" />
+			<zipfileset dir="." fullpath="chrome.manifest" includes="chrome.manifest.dist" />
+ 		</zip>
+ 	</target>
+
+	<!-- Everything inside the chrome directory is zipped into "scuttlelicious.jar", 
+	     which is then put back into the chrome directory. -->
+	<target name="createjar">
+ 		<zip destfile="scuttlelicious.jar">
+ 			<zipfileset dir="." includes="content/**" />
+ 			<zipfileset dir="." includes="skin/**" />
+ 			<zipfileset dir="." includes="locale/**" />
+ 		</zip>
+ 	</target>
+	
+	<target name="init">
+		<delete>
+		    <fileset dir="." includes="scuttlelicious*.xpi, scuttlelicious.jar"/>
+		</delete>
+	</target>	
+ </project>

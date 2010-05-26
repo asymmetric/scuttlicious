@@ -1,0 +1,7 @@
+<!-- context menu overlay -->
+<!ENTITY menuitem.label "Diese Seite zu Ihren Bookmarks hinzufügen">
+<!ENTITY menuitem.link.label "Link bookmarken">
+
+<!-- toolbar button overlay -->
+<!ENTITY toolbarbutton.tooltiptext "Link bookmarken">
+<!ENTITY toolbarbutton.label "scuttlelicious">

@@ -1,0 +1,23 @@
+<!-- Dialog -->
+<!ENTITY title "に投稿します...">
+
+<!ENTITY tabbox.pageinfo.tab.label "ページ情報">
+<!ENTITY url.label "URL">
+<!ENTITY description.label "説明">
+<!ENTITY extended.label "拡張 (オプション)">
+<!ENTITY tags.label "タグ (カンマ区切り)">
+<!ENTITY service_url.label "ブックマークサービスの URL">
+
+<!ENTITY tabbox.login.tab.label "ログイン">
+<!ENTITY username.label "ユーザー名">
+<!ENTITY password.label "パスワード">
+<!ENTITY use_password_manager.label "ログインの詳細を覚えるためにパスワードマネージャーを使用する">
+
+<!ENTITY button.accept.label "投稿する">
+<!ENTITY button.cancel.label "取り消し">
+
+<!ENTITY privacy.label "プライバシー">
+<!ENTITY privacy.preference.label "プライバシー設定:">
+<!ENTITY privacy.public.label "公開">
+<!ENTITY privacy.private.label "プライベート">
+<!ENTITY privacy.watch_list.label "注目一覧で共有">

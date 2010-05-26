@@ -1,0 +1,7 @@
+<!-- context menu overlay -->
+<!ENTITY menuitem.label "Favorri.com'a ekle">
+<!ENTITY menuitem.link.label "Favorri.com'a ekle">
+
+<!-- toolbar button overlay -->
+<!ENTITY toolbarbutton.tooltiptext "Favorri.com'a ekle">
+<!ENTITY toolbarbutton.label "Favorrici">

@@ -1,0 +1,23 @@
+<!-- Dialog -->
+<!ENTITY title "Favorrilerine ekle">
+
+<!ENTITY tabbox.pageinfo.tab.label "Sayfa Bilgileri">
+<!ENTITY url.label "Url">
+<!ENTITY description.label "Baslik">
+<!ENTITY extended.label "Açiklama(optional)">
+<!ENTITY tags.label "Etiketler (comma separated)">
+<!ENTITY service_url.label "Favorri">
+
+<!ENTITY tabbox.login.tab.label "Giris">
+<!ENTITY username.label "Kullanici Adi">
+<!ENTITY password.label "Sifre">
+<!ENTITY use_password_manager.label "Sifre hatirlanmasi için sifre yöneticisini kullan.">
+
+<!ENTITY button.accept.label "Ekle">
+<!ENTITY button.cancel.label "Iptal">
+
+<!ENTITY privacy.label "Kimler görebilir">
+<!ENTITY privacy.preference.label "Tercihler">
+<!ENTITY privacy.public.label "Herkes">
+<!ENTITY privacy.private.label "Sadece ben">
+<!ENTITY privacy.watch_list.label "Takip listemdekiler">

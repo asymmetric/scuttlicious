@@ -1,0 +1,7 @@
+<!-- context menu overlay -->
+<!ENTITY menuitem.label "有効な Scuttle サイトにページを投稿する">
+<!ENTITY menuitem.link.label "有効な Scuttle サイトにリンクを投稿する">
+
+<!-- toolbar button overlay -->
+<!ENTITY toolbarbutton.tooltiptext "有効な Scuttle サイトに投稿する">
+<!ENTITY toolbarbutton.label "scuttlelicious">

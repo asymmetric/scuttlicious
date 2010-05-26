@@ -1,0 +1,23 @@
+<!-- Dialog -->
+<!ENTITY title "Bookmarken ...">
+
+<!ENTITY tabbox.pageinfo.tab.label "Titel">
+<!ENTITY url.label "URL">
+<!ENTITY description.label "Beschreibung">
+<!ENTITY extended.label "Erweitert (optional)">
+<!ENTITY tags.label "Tags (mit Komma trennen)">
+<!ENTITY service_url.label "Bookmark Service URL">
+
+<!ENTITY tabbox.login.tab.label "Login">
+<!ENTITY username.label "Benutzername">
+<!ENTITY password.label "Kennwort">
+<!ENTITY use_password_manager.label "Kennwort speichern">
+
+<!ENTITY button.accept.label "Hinzufügen">
+<!ENTITY button.cancel.label "Abbrechen">
+
+<!ENTITY privacy.label "Privatsphäre">
+<!ENTITY privacy.preference.label "Status:">
+<!ENTITY privacy.public.label "öffentlich">
+<!ENTITY privacy.private.label "privat">
+<!ENTITY privacy.watch_list.label "Zur Beobachtungsliste hinzufügen">

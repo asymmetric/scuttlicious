@@ -1,0 +1,13 @@
+content scuttlicious jar:chrome/scuttlicious.jar!/content/
+
+overlay chrome://browser/content/browser.xul    chrome://scuttlicious/content/overlay.xul
+
+locale  scuttlicious    en-US   jar:chrome/scuttlicious.jar!/locale/en-US/
+locale  scuttlicious    zh-CN   jar:chrome/scuttlicious.jar!/locale/zh-CN/
+locale  scuttlicious    zh-TW   jar:chrome/scuttlicious.jar!/locale/zh-TW/
+locale  scuttlicious    ja-JP   jar:chrome/scuttlicious.jar!/locale/ja-JP/
+locale  scuttlicious    tr-TR   jar:chrome/scuttlicious.jar!/locale/tr-TR/
+
+
+skin    scuttlicious    classic     jar:chrome/scuttlicious.jar!/skin/classic/
+style   chrome://global/content/customizeToolbar.xul    chrome://scuttlicious/skin/overlay.css
