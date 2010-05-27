@@ -1,7 +1,11 @@
-// del.icio.us post 0.4
-// Created by Patrick H. Lauke aka redux - http://www.splintered.co.uk - April 2005
-// scuttlicious
-// modified by Kai Mai - http://www.kai-mai.com - Oct 2005.
+/**
+ * del.icio.us post 0.4
+ * Created by Patrick H. Lauke aka redux - http://www.splintered.co.uk - April 2005
+ * scuttlelicious
+ * modified by Kai Mai - http://www.kai-mai.com - Oct 2005.
+ * scuttlicious
+ * created by asymmetric
+ */
 
 
 // global variables
@@ -48,8 +52,7 @@ function scuttlicious_post_submit() {
     dump("\nscuttlicious_post_description " + scuttlicious_post_description);
     dump("\n");
     */
-    window.openDialog("chrome://scuttlicious/content/dialogs/submit.xul", '', "centerscreen,chrome",scuttlicious_post_url,scuttlicious_post_description);
+    window.openDialog("chrome://scuttlicious/content/dialogs/submit.xul", 'scuttlicious_submit', "centerscreen",scuttlicious_post_url,scuttlicious_post_description);
 }
 
 window.addEventListener("load", scuttlicious_post_init, false);
-

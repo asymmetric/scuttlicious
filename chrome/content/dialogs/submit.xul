@@ -3,33 +3,33 @@
 <?xml-stylesheet href="chrome://scuttlicious/skin/overlay.css" type="text/css"?>
 
 <!DOCTYPE dialog SYSTEM "chrome://scuttlicious/locale/dialog_submit.dtd">
-<dialog id="delicious-post-dialog"
-        onload="dump('onload\n'); delicious_post_dialog_init();"
-        ondialogaccept="return delicious_post_dialog_accept();"
+<dialog id="scuttlicious-post-dialog"
+        onload="scuttlicious_post_dialog_init();"
+        ondialogaccept="return scuttlicious_post_dialog_accept();"
         ondialogcancel="return true;"
         title="&title;"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-    <stringbundle id="delicious-post-stringbundle" src="chrome://scuttlicious/locale/dialog_submit.properties"/>
+    <stringbundle id="scuttlicious-post-stringbundle" src="chrome://scuttlicious/locale/dialog_submit.properties"/>
 
     <script type="application/x-javascript" src="chrome://scuttlicious/content/dialogs/submit.js"/>
-    <deck selectedIndex="0" id="delicious-post-dialog-deck">
-      <tabbox id="delicious-post-dialog-tabbox">
+    <deck selectedIndex="0" id="scuttlicious-post-dialog-deck">
+      <tabbox id="scuttlicious-post-dialog-tabbox">
         <tabs >
           <tab label="&tabbox.pageinfo.tab.label;"/>
           <tab label="&tabbox.login.tab.label;"/>
         </tabs>
             <tabpanels>
-                <tabpanel id="delicious-post-dialog-tab-pageinfo">
+                <tabpanel id="scuttlicious-post-dialog-tab-pageinfo">
                     <vbox flex="1">
-                        <label for="delicious-post-dialog-url" value="&url.label;"/>
-                        <textbox id="delicious-post-dialog-url" flex="1"/>
-                        <label for="delicious-post-dialog-description" value="&description.label;"/>
-                        <textbox id="delicious-post-dialog-description"/>
-                        <label for="delicious-post-dialog-extended" value="&extended.label;"/>
-                        <textbox multiline="true" rows="3" id="delicious-post-dialog-extended"/>
-                        <label for="delicious-post-dialog-tags" value="&tags.label;"/>
-                        <textbox id="delicious-post-dialog-tags"/>
+                        <label for="scuttlicious-post-dialog-url" value="&url.label;"/>
+                        <textbox id="scuttlicious-post-dialog-url" flex="1"/>
+                        <label for="scuttlicious-post-dialog-description" value="&description.label;"/>
+                        <textbox id="scuttlicious-post-dialog-description"/>
+                        <label for="scuttlicious-post-dialog-extended" value="&extended.label;"/>
+                        <textbox multiline="true" rows="3" id="scuttlicious-post-dialog-extended"/>
+                        <label for="scuttlicious-post-dialog-tags" value="&tags.label;"/>
+                        <textbox id="scuttlicious-post-dialog-tags"/>
                         <radiogroup id="scuttlicious-privacy-code">
                           <label for="scuttlicious-privacy-code" value="&privacy.label;"/>
                           <hbox>
@@ -40,11 +40,11 @@
                         </radiogroup>
                     </vbox>
                 </tabpanel>
-                <tabpanel id="delicious-post-dialog-tab-login">
+                <tabpanel id="scuttlicious-post-dialog-tab-login">
                     <vbox>
                         <hbox>
-                            <label for="delicious-post-dialog-service-url" value="&service_url.label;"/>
-                            <textbox id="delicious-post-dialog-service-url" onchange="scuttlicious_autofillServiceURL()"/>
+                            <label for="scuttlicious-post-dialog-service-url" value="&service_url.label;"/>
+                            <textbox id="scuttlicious-post-dialog-service-url" onchange="scuttlicious_autofillServiceURL()"/>
                         </hbox>
                         <radiogroup id="scuttlicious-privacy-preference">
                           <label for="scuttlicious-privacy-preference" value="&privacy.preference.label;"/>
@@ -55,19 +55,19 @@
                            </hbox>
                         </radiogroup>
                         <hbox>
-                          <label for="delicious-post-dialog-username" value="&username.label;"/>
-                            <textbox id="delicious-post-dialog-username" onchange="delicious_autofillPassword(this.value)"/>
-                            <label for="delicious-post-dialog-password" value="&password.label;"/>
-                            <textbox id="delicious-post-dialog-password" type="password"/>
+                          <label for="scuttlicious-post-dialog-username" value="&username.label;"/>
+                            <textbox id="scuttlicious-post-dialog-username" onchange="scuttlicious_autofillPassword(this.value)"/>
+                            <label for="scuttlicious-post-dialog-password" value="&password.label;"/>
+                            <textbox id="scuttlicious-post-dialog-password" type="password"/>
                         </hbox>
-                        <checkbox id="delicious-post-dialog-use_password_manager" label="&use_password_manager.label;" checked="false"/>
+                        <checkbox id="scuttlicious-post-dialog-use_password_manager" label="&use_password_manager.label;" checked="false"/>
 
                     </vbox>
                 </tabpanel>
             </tabpanels>
         </tabbox>
 
-        <progressmeter id="delicious-post-dialog-progress" mode="undetermined" hidden="true"/>
+        <progressmeter id="scuttlicious-post-dialog-progress" mode="undetermined" hidden="true"/>
 
     </deck>
 

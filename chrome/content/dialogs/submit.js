@@ -26,8 +26,7 @@ function scuttlicious_post_dialog_init() {
                 document.getElementById('scuttlicious-post-dialog-use_password_manager').setAttribute('checked',true);
             }
         }
-    } catch (ex)
-    {
+    } catch (ex) {
         scuttlicious_preferences.setBoolPref('scuttlicious.post.use_password_manager',false);
     }
 
