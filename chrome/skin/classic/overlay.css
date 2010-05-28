@@ -1,7 +1,7 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 #delicious-post-toolbarbutton {
-	list-style-image: url(chrome://scuttlelicious/skin/buttons.png);
+	list-style-image: url(chrome://scuttlicious/skin/buttons.png);
 	-moz-image-region: rect(0 33px 24px 0);
 }
 

@@ -6,7 +6,7 @@
       <em:name>scuttlicious</em:name>
       <em:version>0.1</em:version>
       <em:type>2</em:type>
-      <em:description>Posts current page or link to a user-defined Scuttle-enable site. Based on del.icio.us post and scuttlelicious.</em:description>
+      <em:description>Posts current page or link to a user-defined Scuttle-enable site. Based on del.icio.us post and scuttlicious.</em:description>
       <em:creator>asymmetric</em:creator>
       <em:homepageURL>http://github.com/asymmetric</em:homepageURL>
       <em:iconURL>chrome://scuttlicious/skin/icon.png</em:iconURL>
