@@ -144,8 +144,8 @@ function scuttlicious_post_dialog_accept() {
         document.getElementById('scuttlicious-post-dialog-deck').selectedIndex=1;
 
         document.getElementById('scuttlicious-post-dialog').setAttribute('wait-cursor',true);
-        document.getElementById('delicios-post-dialog-accept').disabled=true;
-        document.getElementById('delicios-post-dialog-cancel').disabled=false;
+        document.getElementById('scuttlicious-post-dialog-accept').disabled=true;
+        document.getElementById('scuttlicious-post-dialog-cancel').disabled=false;
 
         // work out the correct ISO datestamp (no need for timezone offset, we're using UTC throughout)
         var d = new Date();
@@ -363,7 +363,7 @@ function scuttlicious_reset_dialog(){
     document.getElementById('scuttlicious-post-dialog').removeAttribute('wait-cursor');
     document.getElementById('scuttlicious-post-dialog-deck').selectedIndex=0;
     document.getElementById('scuttlicious-post-dialog-progress').hidden=true;
-    document.getElementById('delicios-post-dialog-accept').disabled=false;
-    document.getElementById('delicios-post-dialog-cancel').disabled=false;
+    document.getElementById('scuttlicious-post-dialog-accept').disabled=false;
+    document.getElementById('scuttlicious-post-dialog-cancel').disabled=false;
 
 }

@@ -17,7 +17,7 @@ toolbar[iconsize="small"] #scuttlicious-post-toolbarbutton:hover {
 	-moz-image-region: rect(0 110px 16px 88px);
 }
 
-dialog#scuttlicious-post-dialog #delicios-post-dialog-buttons {
+dialog#scuttlicious-post-dialog #scuttlicious-post-dialog-buttons {
 	-moz-box-pack: end;
 }
 

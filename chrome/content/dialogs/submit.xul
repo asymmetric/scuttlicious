@@ -19,60 +19,61 @@
           <tab label="&tabbox.pageinfo.tab.label;"/>
           <tab label="&tabbox.login.tab.label;"/>
         </tabs>
-            <tabpanels>
-                <tabpanel id="scuttlicious-post-dialog-tab-pageinfo">
-                    <vbox flex="1">
-                        <label for="scuttlicious-post-dialog-url" value="&url.label;"/>
-                        <textbox id="scuttlicious-post-dialog-url" flex="1"/>
-                        <label for="scuttlicious-post-dialog-description" value="&description.label;"/>
-                        <textbox id="scuttlicious-post-dialog-description"/>
-                        <label for="scuttlicious-post-dialog-extended" value="&extended.label;"/>
-                        <textbox multiline="true" rows="3" id="scuttlicious-post-dialog-extended"/>
-                        <label for="scuttlicious-post-dialog-tags" value="&tags.label;"/>
-                        <textbox id="scuttlicious-post-dialog-tags"/>
-                        <radiogroup id="scuttlicious-privacy-code">
-                          <label for="scuttlicious-privacy-code" value="&privacy.label;"/>
-                          <hbox>
-                              <radio id="scuttlicious-privacy-code-public" label="&privacy.public.label;"/>
-                              <radio id="scuttlicious-privacy-code-watched_list" label="&privacy.watch_list.label;"/>
-                              <radio id="scuttlicious-privacy-code-private" label="&privacy.private.label;"/>
-                           </hbox>
-                        </radiogroup>
-                    </vbox>
-                </tabpanel>
-                <tabpanel id="scuttlicious-post-dialog-tab-login">
-                    <vbox>
-                        <hbox>
-                            <label for="scuttlicious-post-dialog-service-url" value="&service_url.label;"/>
-                            <textbox id="scuttlicious-post-dialog-service-url" onchange="scuttlicious_autofillServiceURL()"/>
-                        </hbox>
-                        <radiogroup id="scuttlicious-privacy-preference">
-                          <label for="scuttlicious-privacy-preference" value="&privacy.preference.label;"/>
-                          <hbox>
-                              <radio id="scuttlicious-privacy-preference-public" label="&privacy.public.label;"/>
-                              <radio id="scuttlicious-privacy-preference-watched_list" label="&privacy.watch_list.label;"/>
-                              <radio id="scuttlicious-privacy-preference-private" label="&privacy.private.label;"/>
-                           </hbox>
-                        </radiogroup>
-                        <hbox>
-                          <label for="scuttlicious-post-dialog-username" value="&username.label;"/>
-                            <textbox id="scuttlicious-post-dialog-username" onchange="scuttlicious_autofillPassword(this.value)"/>
-                            <label for="scuttlicious-post-dialog-password" value="&password.label;"/>
-                            <textbox id="scuttlicious-post-dialog-password" type="password"/>
-                        </hbox>
-                        <checkbox id="scuttlicious-post-dialog-use_password_manager" label="&use_password_manager.label;" checked="false"/>
+        <tabpanels>
+            <tabpanel id="scuttlicious-post-dialog-tab-pageinfo">
+                <vbox flex="1">
+                    <label for="scuttlicious-post-dialog-url" value="&url.label;"/>
+                    <textbox id="scuttlicious-post-dialog-url" flex="1"/>
+                    <label for="scuttlicious-post-dialog-description" value="&description.label;"/>
+                    <textbox id="scuttlicious-post-dialog-description"/>
+                    <label for="scuttlicious-post-dialog-extended" value="&extended.label;"/>
+                    <textbox multiline="true" rows="3" id="scuttlicious-post-dialog-extended"/>
+                    <label for="scuttlicious-post-dialog-tags" value="&tags.label;"/>
+                    <textbox id="scuttlicious-post-dialog-tags"/>
+                    <radiogroup id="scuttlicious-privacy-code">
+                      <label for="scuttlicious-privacy-code" value="&privacy.label;"/>
+                      <hbox>
+                          <radio id="scuttlicious-privacy-code-public" label="&privacy.public.label;"/>
+                          <radio id="scuttlicious-privacy-code-watched_list" label="&privacy.watch_list.label;"/>
+                          <radio id="scuttlicious-privacy-code-private" label="&privacy.private.label;"/>
+                       </hbox>
+                    </radiogroup>
+                </vbox>
+            </tabpanel>
+            <tabpanel id="scuttlicious-post-dialog-tab-login">
+                <vbox>
+                    <hbox>
+                        <label for="scuttlicious-post-dialog-service-url" value="&service_url.label;"/>
+                        <textbox id="scuttlicious-post-dialog-service-url" onchange="scuttlicious_autofillServiceURL()"/>
+                    </hbox>
+                    <radiogroup id="scuttlicious-privacy-preference">
+                      <label for="scuttlicious-privacy-preference" value="&privacy.preference.label;"/>
+                      <hbox>
+                          <radio id="scuttlicious-privacy-preference-public" label="&privacy.public.label;"/>
+                          <radio id="scuttlicious-privacy-preference-watched_list" label="&privacy.watch_list.label;"/>
+                          <radio id="scuttlicious-privacy-preference-private" label="&privacy.private.label;"/>
+                       </hbox>
+                    </radiogroup>
+                    <hbox>
+                      <label for="scuttlicious-post-dialog-username" value="&username.label;"/>
+                        <textbox id="scuttlicious-post-dialog-username" onchange="scuttlicious_autofillPassword(this.value)"/>
+                        <label for="scuttlicious-post-dialog-password" value="&password.label;"/>
+                        <textbox id="scuttlicious-post-dialog-password" type="password"/>
+                    </hbox>
+                    <checkbox id="scuttlicious-post-dialog-use_password_manager" label="&use_password_manager.label;" checked="false"/>
 
-                    </vbox>
-                </tabpanel>
-            </tabpanels>
-        </tabbox>
+                </vbox>
+            </tabpanel>
+        </tabpanels>
+      </tabbox>
 
-        <progressmeter id="scuttlicious-post-dialog-progress" mode="undetermined" hidden="true"/>
+      <!-- index = 1 -->
+      <progressmeter id="scuttlicious-post-dialog-progress" mode="undetermined" hidden="true"/>
 
     </deck>
 
-    <hbox id="delicios-post-dialog-buttons">
-        <button id="delicios-post-dialog-accept" dlgtype="accept" label="&button.accept.label;"/>
-        <button id="delicios-post-dialog-cancel" dlgtype="cancel" label="&button.cancel.label;"/>
+    <hbox id="scuttlicious-post-dialog-buttons">
+        <button id="scuttlicious-post-dialog-accept" dlgtype="accept" label="&button.accept.label;"/>
+        <button id="scuttlicious-post-dialog-cancel" dlgtype="cancel" label="&button.cancel.label;"/>
     </hbox>
 </dialog>
