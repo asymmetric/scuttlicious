@@ -8,12 +8,14 @@
   <script type="application/x-javascript" src="chrome://scuttlicious/content/overlay.js"/>
 
   <!-- add entries in the right-click menu -->
-  <popup id="contentAreaContextMenu">
+  <menupopup id="contentAreaContextMenu">
+    <!-- post whole page entry -->
     <menuitem id="scuttlicious-post-context-page" class="menuitem" insertafter="context-bookmarkpage"
       label="&menuitem.label;" oncommand="scuttlicious_post_submit()"/>
+    <!-- post link entry -->
     <menuitem id="scuttlicious-post-context-link" class="menuitem" insertafter="context-bookmarklink"
       label="&menuitem.link.label;" oncommand="scuttlicious_post_submit()" hidden="true"/>
-  </popup>
+  </menupopup>
 
   <!-- add custom buttons to the toolbar palette -->
   <toolbarpalette id="BrowserToolbarPalette">

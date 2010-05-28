@@ -1,6 +1,6 @@
 <!-- context menu overlay -->
-<!ENTITY menuitem.label "Post Page to a Scuttle-enabled Site">
-<!ENTITY menuitem.link.label "Post Link to a Scuttle-enabled Site">
+<!ENTITY menuitem.label "Post Page to Scuttle">
+<!ENTITY menuitem.link.label "Post Link to Scuttle">
 
 <!-- toolbar button overlay -->
 <!ENTITY toolbarbutton.tooltiptext "Post a Scuttle-enabled Site">

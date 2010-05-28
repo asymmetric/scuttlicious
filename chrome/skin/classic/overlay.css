@@ -1,28 +1,28 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-#delicious-post-toolbarbutton {
+#scuttlicious-post-toolbarbutton {
 	list-style-image: url(chrome://scuttlicious/skin/buttons.png);
 	-moz-image-region: rect(0 33px 24px 0);
 }
 
-#delicious-post-toolbarbutton:hover {
+#scuttlicious-post-toolbarbutton:hover {
 	-moz-image-region: rect(0 66px 24px 33px);
 }
 
-toolbar[iconsize="small"] #delicious-post-toolbarbutton {
+toolbar[iconsize="small"] #scuttlicious-post-toolbarbutton {
 	-moz-image-region: rect(0 88px 16px 66px);
 }
 
-toolbar[iconsize="small"] #delicious-post-toolbarbutton:hover {
+toolbar[iconsize="small"] #scuttlicious-post-toolbarbutton:hover {
 	-moz-image-region: rect(0 110px 16px 88px);
 }
 
-dialog#delicious-post-dialog #delicios-post-dialog-buttons {
+dialog#scuttlicious-post-dialog #delicios-post-dialog-buttons {
 	-moz-box-pack: end;
 }
 
 /* hack to circumvent FF bug 266459 */
-dialog#delicious-post-dialog progressmeter[mode="undetermined"] {
+dialog#scuttlicious-post-dialog progressmeter[mode="undetermined"] {
   -moz-binding:
 url("chrome://global/content/bindings/progressmeter.xml#progressmeter-undetermined");
 }
