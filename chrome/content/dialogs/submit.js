@@ -16,7 +16,6 @@ function scuttlicious_post_dialog_init() {
     var username='';
     var password='';
 
-
     try {
         if (scuttlicious_preferences.prefHasUserValue('scuttlicious.post.username')) {
             username=scuttlicious_preferences.getCharPref('scuttlicious.post.username');
