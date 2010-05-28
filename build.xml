@@ -4,23 +4,23 @@
 <project name="scuttlicious" default="createxpi">
 
 	<target name="createxpi" depends="init, createjar">
-		<zip destfile="scuttlicious_0.2.4.xpi">
- 			<zipfileset dir="." prefix="chrome/" includes="scuttlicious.jar" />
+		<zip destfile="scuttlicious_ant.xpi">
+      <zipfileset dir="." includes="chrome/scuttlicious.jar" />
  			<zipfileset dir="." includes="install.rdf" />
  			<zipfileset dir="." includes="install.js" />
 			<zipfileset dir="." includes="build.xml" />
 			<zipfileset dir="." includes="ReleaseNotes" />
-			<zipfileset dir="." fullpath="chrome.manifest" includes="chrome.manifest.dist" />
+			<zipfileset dir="." includes="chrome.manifest" />
  		</zip>
  	</target>
 
 	<!-- Everything inside the chrome directory is zipped into "scuttlicious.jar",
 	     which is then put back into the chrome directory. -->
 	<target name="createjar">
- 		<zip destfile="scuttlicious.jar">
- 			<zipfileset dir="." includes="content/**" />
- 			<zipfileset dir="." includes="skin/**" />
- 			<zipfileset dir="." includes="locale/**" />
+    <zip destfile="chrome/scuttlicious.jar">
+ 			<zipfileset dir="chrome" includes="content/**" excludes="*.swp" />
+ 			<zipfileset dir="chrome" includes="skin/**" excludes="*.swp" />
+ 			<zipfileset dir="chrome" includes="locale/**" excludes="*.swp" />
  		</zip>
  	</target>
 
