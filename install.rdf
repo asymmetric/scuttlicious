@@ -5,17 +5,16 @@
       <em:id>scuttlicious@scuttlicious.scuttlicious</em:id>
       <em:name>scuttlicious</em:name>
       <em:version>0.1</em:version>
-      <em:name>scuttlicious</em:name>
       <em:type>2</em:type>
-      <em:description>Posts current page or link to a user-defined Scuttle-enable site. This extension is a slightly-modified version del.icio.us post 0.4 at https://addons.mozilla.org/extensions/moreinfo.php?id=527</em:description>
+      <em:description>Posts current page or link to a user-defined Scuttle-enable site. Based on del.icio.us post and scuttlelicious.</em:description>
       <em:creator>asymmetric</em:creator>
       <em:homepageURL>http://github.com/asymmetric</em:homepageURL>
-      <em:iconURL>chrome://scuttlelicious/skin/icon.png</em:iconURL>
+      <em:iconURL>chrome://scuttlicious/skin/icon.png</em:iconURL>
       <em:targetApplication>
           <Description>
               <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-              <em:minVersion>1.5</em:minVersion>
-              <em:maxVersion>3.5.*</em:maxVersion>
+              <em:minVersion>2.0</em:minVersion>
+              <em:maxVersion>3.6.*</em:maxVersion>
           </Description>
       </em:targetApplication>
     </Description>

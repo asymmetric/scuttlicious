@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://scuttlelicious/skin/overlay.css" type="text/css"?>
+<?xml-stylesheet href="chrome://scuttlicious/skin/overlay.css" type="text/css"?>
 
-<!DOCTYPE overlay SYSTEM "chrome://scuttlelicious/locale/overlay.dtd">
+<!DOCTYPE overlay SYSTEM "chrome://scuttlicious/locale/overlay.dtd">
 
 <overlay id="scuttlicious-post-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
   <script type="application/x-javascript" src="chrome://scuttlicious/content/overlay.js"/>
 
   <!-- add entries in the right-click menu -->
-  <menupopup id="contentAreaContextMenu">
+  <popup id="contentAreaContextMenu">
     <menuitem id="scuttlicious-post-context-page" class="menuitem" insertafter="context-bookmarkpage"
       label="&menuitem.label;" oncommand="scuttlicious_post_submit()"/>
     <menuitem id="scuttlicious-post-context-link" class="menuitem" insertafter="context-bookmarklink"
       label="&menuitem.link.label;" oncommand="scuttlicious_post_submit()" hidden="true"/>
-  </menupopup>
+  </popup>
 
   <!-- add custom buttons to the toolbar palette -->
   <toolbarpalette id="BrowserToolbarPalette">

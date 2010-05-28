@@ -1,7 +1,7 @@
 /**
  * del.icio.us post 0.4
  * Created by Patrick H. Lauke aka redux - http://www.splintered.co.uk - April 2005
- * scuttlelicious
+ * scuttlicious
  * modified by Kai Mai - http://www.kai-mai.com - Oct 2005.
  * scuttlicious
  * created by asymmetric
