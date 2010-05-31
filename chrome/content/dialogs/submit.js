@@ -144,6 +144,7 @@ function scuttlicious_post_dialog_accept() {
         document.getElementById('scuttlicious-post-dialog-deck').selectedIndex=1;
 
         document.getElementById('scuttlicious-post-dialog').setAttribute('wait-cursor',true);
+        document.getElementById('scuttlicious-post-dialog-test').disabled=true;
         document.getElementById('scuttlicious-post-dialog-accept').disabled=true;
         document.getElementById('scuttlicious-post-dialog-cancel').disabled=false;
 
@@ -162,9 +163,11 @@ function scuttlicious_post_dialog_accept() {
 
         var querystring = api_url+'url='+url+'&description='+description+'&extended='+extended+'&tags='+tags+'&status='+privacy;
 
+        /*
         dump("\n");
         dump(querystring);
         dump("\n");
+        */
 
         // start a new XMLHttpRequest
         var xmlhttp = new XMLHttpRequest();
@@ -185,8 +188,10 @@ function scuttlicious_post_dialog_accept() {
 
 
         try {
+            /*
             dump("xmlhttp.status is " + xmlhttp.status + "\n");
             dump("xmlhttp.responseXML is " + xmlhttp.responseXML + "\n");
+            */
 
             switch(xmlhttp.status) {
                 case 503:

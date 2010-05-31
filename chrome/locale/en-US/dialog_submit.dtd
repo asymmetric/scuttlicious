@@ -13,6 +13,7 @@
 <!ENTITY password.label "Password">
 <!ENTITY use_password_manager.label "Use Password Manager to remember login details">
 
+<!ENTITY button.accept.test "Test">
 <!ENTITY button.accept.label "Post">
 <!ENTITY button.cancel.label "Cancel">
 
