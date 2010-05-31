@@ -72,9 +72,9 @@
 
     </deck>
 
-    <hbox id="delicios-post-dialog-buttons">
-        <button id="delicios-post-dialog-test" dlgtype="extra1" label="&button.test.label;"/>
-        <button id="delicios-post-dialog-accept" dlgtype="accept" label="&button.accept.label;"/>
-        <button id="delicios-post-dialog-cancel" dlgtype="cancel" label="&button.cancel.label;"/>
+    <hbox id="scuttlicious-post-dialog-buttons">
+        <button id="scuttlicious-post-dialog-test" dlgtype="extra1" label="&button.test.label;"/>
+        <button id="scuttlicious-post-dialog-accept" dlgtype="accept" label="&button.accept.label;"/>
+        <button id="scuttlicious-post-dialog-cancel" dlgtype="cancel" label="&button.cancel.label;"/>
     </hbox>
 </dialog>
